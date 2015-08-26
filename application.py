@@ -68,7 +68,6 @@ class User(db.Model):
 
 # Connect to SNS
 sns_conn = sns.connect_to_region(application.config['AWS_REGION'])
-error
 
 @application.route('/')
 def welcome():
